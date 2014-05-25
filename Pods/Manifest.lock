@@ -1,0 +1,30 @@
+PODS:
+  - KIF (3.0.4):
+    - KIF/XCTest
+  - KIF/XCTest (3.0.4)
+  - Kiwi-KIF (1.1.0):
+    - KIF (~> 3.0.0)
+    - Kiwi-KIF/SenTestingKit
+  - Kiwi-KIF/SenTestingKit (1.1.0):
+    - KIF (~> 3.0.0)
+    - Kiwi/SenTestingKit (~> 2.2.3)
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/SenTestingKit (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - Kiwi/XCTest (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+
+DEPENDENCIES:
+  - KIF
+  - Kiwi-KIF
+  - Kiwi/XCTest
+
+SPEC CHECKSUMS:
+  KIF: 443c517d14fc2a99d27d3df170bc274cdf288241
+  Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+  Kiwi-KIF: 88b453e142a10c00857197e8f9a0b0fb61b32da9
+
+COCOAPODS: 0.32.1
